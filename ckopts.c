@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-#include<ctype.h>
-#include<unistd.h>
+#include<ctype.h> // required for isprint
+#include<unistd.h> // required for optopt, opterr and optarg.
 
 #define GBUF 64
 #define WBUF 8
